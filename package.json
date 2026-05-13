@@ -8,7 +8,7 @@
     "deploy": "vercel --prod"
   },
   "dependencies": {
-    "authorizenet": "^1.1.9",
+    "authorizenet": "^1.0.10",
     "node-fetch": "^2.7.0"
   },
   "engines": {
