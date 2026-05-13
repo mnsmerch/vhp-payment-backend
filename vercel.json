@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "functions": {
+    "api/**/*.js": {
+      "maxDuration": 30
+    }
+  },
+  "routes": [
+    { "src": "/oauth/callback", "dest": "/api/oauth/callback.js" },
+    { "src": "/webhook/payment", "dest": "/api/webhook/payment.js" },
+    { "src": "/webhook/refund", "dest": "/api/webhook/refund.js" },
+    { "src": "/webhook/ach", "dest": "/api/webhook/ach.js" },
+    { "src": "/payment/charge", "dest": "/api/payment/charge.js" },
+    { "src": "/payment/ach", "dest": "/api/payment/ach.js" },
+    { "src": "/health", "dest": "/api/health.js" }
+  ]
+}

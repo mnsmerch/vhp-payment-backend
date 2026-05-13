@@ -1,0 +1,17 @@
+{
+  "name": "ghl-payment-backend",
+  "version": "1.0.0",
+  "description": "GHL Custom Payment Processor - Authorize.net (with ACH support)",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vercel dev",
+    "deploy": "vercel --prod"
+  },
+  "dependencies": {
+    "authorizenet": "^1.1.9",
+    "node-fetch": "^2.7.0"
+  },
+  "engines": {
+    "node": "18.x"
+  }
+}
